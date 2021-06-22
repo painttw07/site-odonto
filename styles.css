@@ -1,0 +1,146 @@
+* {
+    font-family: 'Trebuchet MS',sans-serif;
+}
+header{
+    margin: 0 auto;
+    display: table;
+}
+header div {
+    float: left;
+}
+header div button {
+    background: #84D3CD;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+header div button:hover {
+    background: #477975;
+}
+header div img{
+    width: 450px;
+    height: auto;
+    margin: 0px 200px;
+}
+header .cels{
+    margin-top: 40px;
+}
+header div #cel-whats{
+    color: #84D3CD;
+    font-size: 22px;
+    font-weight: 600;
+}
+body main section .nossos-tratamentos {
+    color: #84D3CD;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+body main #banner1{
+    padding: 250px 150px;
+    background: #84D3CD;
+    border: 5px solid #477975;
+    margin-top: 20px;
+}
+body main .servicos {
+    width: 1200px;
+    display: table;
+    margin: 0 auto;
+}
+body main .servicos .servico {
+    width: 30%;
+    float: left;
+    background: #ebebeb;
+    margin: 10px 1.5%;
+    min-height: 500px;
+    height: auto;
+}
+body main .servicos .servico .img-content{
+    padding: 15px;
+}
+body main .servicos .servico .img-content img{
+    width: 100%;
+}
+body main .servicos .servico .config-texto{
+    margin: 20px;
+}
+body main .servicos .servico .texto{
+    font-size: 16px;
+}
+body footer{
+    width: 1200px;
+    display: table;
+    margin: 0 auto;
+    height: auto;
+
+}
+body footer h1{
+    color: #84D3CD;
+    font-size: 36px;
+    float: left;
+    margin: 30px
+}
+body footer h1 span {
+    font-weight: bold;
+    font-size: 50px;
+}
+body footer .footer-info{
+    float: left;
+}
+body footer .texto-agende{
+    float: left;
+}
+body footer form{
+    width: 100%;
+}
+body footer form input{
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+    color: #495057;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+body footer form .fdata{
+    width: 175px;
+    height: 30px;
+}
+body footer form .fhora{
+    width: 175px;
+    height: 30px;
+}
+body footer .aviso {
+    font-size: 14px;
+    text-align: right;
+}
+body footer div button {
+    float: right;
+    margin-right: 10px;
+     background: #84D3CD;
+     border: none;
+     color: white;
+     border-radius: 25px;
+     text-align: center;
+     padding: 8px 18px;
+     font-size: 20px;
+     font-weight: 600;
+    margin: 15px 0px 40px 0px;
+ }
+body footer div button:hover {
+    background: #477975;
+}
+body footer #endereco{
+    width: 100%;
+    text-align: center;
+    color: #84D3CD;
+    height: auto;
+    margin-bottom: 5px;
+    float: left;
+}
